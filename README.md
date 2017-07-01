@@ -1,0 +1,2 @@
+# Mitigation
+CFG DEP ACG CIG ChPP ASLR SEHOP
