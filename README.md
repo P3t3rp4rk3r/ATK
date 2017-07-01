@@ -35,7 +35,7 @@ cfg ,system failure, privilege acceleration, arbitrary code execution.
 
 # Iaso; 
 author: sérine.<br>
-cfg, rop, brute forcing the ASLR, ,DEP.
+cfg, rop, brute forcing the ASLR, SEHOP ,DEP.
 
 <table>
     <tr>
