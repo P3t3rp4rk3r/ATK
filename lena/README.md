@@ -1,3 +1,4 @@
+# lena
 # Copyrights © The ByPassCfg authors.
 <html><a href="https://twitter.com/Yena0xC5">@Yena0xC5</a></html>
 
@@ -49,8 +50,6 @@ with and without: Hyper-v & Kvm<br>
 Microsoft <html><a href="https://github.com/kukuriku/ByPassCfg/blob/master/VmWare/HyperV/README.md">Hyper-V</a></html> >> for the time being the only system that did not suffer the payload directly ((a possible fixup)).<br><br>
 
 # Tech
-
-# The first method (lena) 
 
 in this  method we abuse the cfg while initializing legit memory reservations, at the start of the program, making the cfg call for the image loaders with good flag assertion parameters. later on the program commits a continuous illegal set of instruction; loading into the small allocated space a much bigger buffer then it allocated. who leads to virtual memory overruns.
 
