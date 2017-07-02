@@ -11,8 +11,10 @@ verius exploitation techniques to attack the intel x86 architecture in order to 
 # STATUS
 
 # lena;
+
 author: <html><a href="https://twitter.com/Yena0xC5">@Yena</a></html>.<br>
-cfg ,system failure, privilege acceleration, arbitrary code execution.
+cfg ,system failure, privilege acceleration, arbitrary code execution.<br>
+<html><a href="https://github.com/kukuriku/Mitigation/tree/master/lena">ref</a></html><br>
 
 <table>
     <tr>
@@ -35,9 +37,11 @@ cfg ,system failure, privilege acceleration, arbitrary code execution.
 	<td>an open case, still not fixed.</td>
 </table>
 
-# Iaso; 
+# Iaso;
+
 author: sérine.<br>
-cfg, rop, brute forcing the ASLR, SEHOP ,DEP.
+cfg, rop, brute forcing the ASLR, SEHOP ,DEP.<br>
+<html><a href="https://github.com/kukuriku/Mitigation/tree/master/Iaso">ref</a></html><br>
 
 <table>
     <tr>
