@@ -1,5 +1,5 @@
 # lena
-# Copyrights © The ByPassCfg authors.
+# Copyrights © Numéro du projet sept sérine.
 <html><a href="https://twitter.com/Yena0xC5">@Yena0xC5</a></html>
 
 # description
