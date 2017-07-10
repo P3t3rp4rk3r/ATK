@@ -18,6 +18,8 @@ That is a major suprise Taking in mind The <html><a href="https://msdn.microsoft
    The win kernel, causing immediate system crash and possibly<br>
    gain execution privileges to protected NT system calls,<br>
    and to overrun System Protected Memory Regions To Cause HardWare Corruption.<br>
+   This is Done by consistant indirect call To a pointer to a memory Region Allocated by The Main Thread<br>
+   and can be further implemented by ROP (s.t-return oriented programming, e.i: return address Corruption.).<br>
 
 ![](pic/callstack.jpg)
 
