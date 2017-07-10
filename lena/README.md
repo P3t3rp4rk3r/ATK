@@ -101,7 +101,7 @@ debien on Hyper-v; required a boost launcher to cause a system crush.
     </tr>
     <tr>
         <th>MSRC Case 39225 TRK:0461001454</th>
-        <td>Status - an open case, still not fixed.</td>
+        <td>Closed, Read MsResponse.</td>
     <tr>
         <th>google exploit db</th>
         <td>Status - No answer.</td>
@@ -114,6 +114,12 @@ debien on Hyper-v; required a boost launcher to cause a system crush.
 	<th>Intel Product Security Incident Response Team</th>
 	<td>an open case, still not fixed.</td>
 </table>
+
+# Ms Response
+	The engineering team was able to determine root cause from the dump file you sent and determined that it is a local-	    only Denial of Service bug which is unrelated to CFG. Additionally, they are already aware of the bug as a stability         issue and it will be fixed in the next major update to Windows. As such, this doesn't meet the bar for servicing in         a security update but we do very much appreciate you bringing it to our attention. 
+
+        Regards,
+        Nate
   
   
   
