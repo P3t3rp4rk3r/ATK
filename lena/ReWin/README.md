@@ -6,6 +6,7 @@
 # Rtl Check Failure
 To Quote Ms Technical Team:
 "It is still not clear to me what the finder is trying to achieve in the POC (bsd.exe/bss.exe). He tries to allocate        0x400 bytes continuously and when it fails manufacture a pointer and calls it indirectly. The manufactured pointer is based on the security cookie (__ROR8__(qword_1400164C0 ^ _security_cookie, _security_cookie & 0x3F)). This is done in the loop.", a little explanation the windows operating system Rtl checks chunks of memory before it executes them for a security cookie, this was implemented as far from win 7*. That is a simple routine maid to avoid execution of corrupted memory instructions s.t a Buffer OverFlow, The "Critical Process dead" bsod, indicates system resources being corrupted, which means that the kernel itself is not checking for the security hash, or even worse, that by indirect call maid by simply implementing a longjmp to to the last successful call one can simply redirect the kernel to execute a null pointer.<br>
+The latest windows build produced a "IRQL not less or equal" which simply means that a low integrity procidure can access critical hardware components. with no virtualization or paging to avoid the harware corruption.
 
 its redundent to say that instead of a null pointer one can redirect to an entire instruction set, leading to further exploitation opportunities.
 
