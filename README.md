@@ -23,7 +23,7 @@ cfg ,system failure, privilege acceleration, arbitrary code execution.<br>
     </tr>
     <tr>
         <th>MSRC Case 39225 TRK:0461001454</th>
-        <td>Status - an open case, still not fixed.</td>
+	<td>Closed Read <html><a href="https://github.com/kukuriku/Mitigation/tree/master/lena">MsResponse</a></html></td>
     <tr>
         <th>google exploit db</th>
         <td>Status - No answer.</td>
