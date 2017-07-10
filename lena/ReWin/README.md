@@ -2,7 +2,11 @@
 
 # Reverse Analysis Of a stack based buffer overflow at The winx64 kernel
 
-![bsod](pic/bsod.gif)
+# Rtl Check Failure
+To Quote Ms Technical Team:
+"It is still not clear to me what the finder is trying to achieve in the POC (bsd.exe/bss.exe). He tries to allocate        0x400 bytes continuously and when it fails manufacture a pointer and calls it indirectly. The manufactured pointer is based on the security cookie (__ROR8__(qword_1400164C0 ^ _security_cookie, _security_cookie & 0x3F)). This is done in the loop.", a little explanation the windows operating system Rtl checks chunks of memory before it executes them for a security cookie, this was implemented as far from win 7*. That is a simple routine maid to avoid execution of corrupted memory instructions s.t a Buffer OverFlow, The "Critical Process dead" bsod, indicates system resources being corrupted, which means that the kernel itself is not checking for the security hash, or even worse, that by indirect call maid by simply implementing a longjmp to to the last successful call one can simply redirect the kernel to execute a null pointer.<br>
+
+its redundent to say that instead of a null pointer one can redirect to an entire instruction set, leading to further exploitation opportunities.
 
 The <html><a href="https://msdn.microsoft.com/en-us/library/aa939644(v=winembedded.5).aspx">MinKernel</a></html>
 Macro component is a macro component that bundles the components that are required to create a kernel run-    time    image. By using this component you can quickly generate a kernel run-time image using the Session Manager component, with a                minimal expected footprint. by invoking The minkernel component at The windows operating system core, one can create a corrupted          instruction set, bypassing The <html><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt637065(v=vs.85).aspx">Control Flow Guard</a></html> (s.t->CFG) leading to memory corruption and immediate system crush.
@@ -82,11 +86,14 @@ The reader may refer to The '/bin/beginimport' for the specific symbols loaded
    were build before Run time, and included error and defected instruction set. leading to a system failure.<br>
    one can utilize this Technique to execute any arbitrary assembly.<br>
    <br>
-   i strongly advise you to look carefully at the documents attached.
+   i strongly advise you to look carefully at the documents attached.<br>
    
 # [Poc] -> Run bsd.exe (compiled without cfg), or alternatively run bss.exe (compiled with cfg),
 ![](pic/compiler.jpg)
 ![](pic/gr.jpg)
+
+![bsod](pic/bsod.gif)
+![bsod2](pic/bsod2.gif)
 
 # external links:
 <html><a href="http://windows10dll.nirsoft.net/apphelp_dll.html">apphelp.dll</a></html><br>
