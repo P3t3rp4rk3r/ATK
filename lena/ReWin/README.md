@@ -94,6 +94,7 @@ The reader may refer to The '/bin/beginimport' for the specific symbols loaded
 ![](pic/gr.jpg)
 
 ![bsod](pic/bsod.gif)
+![bsod3](pic/bsod3.gif)
 ![bsod2](pic/bsod2.gif)
 
 # external links:
