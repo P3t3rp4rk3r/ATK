@@ -116,10 +116,10 @@ debien on Hyper-v; required a boost launcher to cause a system crush.
 </table>
 
 # Ms Response
-	The engineering team was able to determine root cause from the dump file you sent and determined that it is a local-	    only Denial of Service bug which is unrelated to CFG. Additionally, they are already aware of the bug as a stability         issue and it will be fixed in the next major update to Windows. As such, this doesn't meet the bar for servicing in         a security update but we do very much appreciate you bringing it to our attention. 
+"The engineering team was able to determine root cause from the dump file you sent and determined that it is a local-	    only Denial of Service bug which is unrelated to CFG. Additionally, they are already aware of the bug as a stability         issue and it will be fixed in the next major update to Windows. As such, this doesn't meet the bar for servicing in         a security update but we do very much appreciate you bringing it to our attention. 
 
-        Regards,
-        Nate
+Regards,
+Nate"
   
   
   
