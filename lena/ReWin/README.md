@@ -9,15 +9,15 @@ To Quote Ms Technical Team:
 
 its redundent to say that instead of a null pointer one can redirect to an entire instruction set, leading to further exploitation opportunities.
 
+# introduction:
 The <html><a href="https://msdn.microsoft.com/en-us/library/aa939644(v=winembedded.5).aspx">MinKernel</a></html>
 Macro component is a macro component that bundles the components that are required to create a kernel run-    time    image. By using this component you can quickly generate a kernel run-time image using the Session Manager component, with a                minimal expected footprint. by invoking The minkernel component at The windows operating system core, one can create a corrupted          instruction set, bypassing The <html><a href="https://msdn.microsoft.com/en-us/library/windows/desktop/mt637065(v=vs.85).aspx">Control Flow Guard</a></html> (s.t->CFG) leading to memory corruption and immediate system crush.
 In-Addition, The Windows Kernel fails to Recognize The Currupted Memory Regions OverRun,
 That is a major suprise Taking in mind The <html><a href="https://msdn.microsoft.com/en-us/library/aa290051(v=vs.71).aspx">Security Cookie Rtl Check</a></html>.
 
-# introduction:
    it is possible for one to exploit winx64 kernel to invoke memory corruption, <br>
    and to bypass The Control Flow Guard. <br>
-   to exploit this vulnerability, one needs minimal guest session credentials,<br>
+   to exploit this vulnerability, as little as UnTrusted integritylevel.<br>
    and to execute a simple 70kb executable.<br>
    by doing so, The user is granted access to CFG protected memory regions within<br>
    The win kernel, causing immediate system crash and possibly<br>
