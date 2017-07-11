@@ -1,10 +1,10 @@
 
 /*
-	      GNU AFFERO GENERAL PUBLIC LICENSE
+	GNU AFFERO GENERAL PUBLIC LICENSE
         Version 3, 19 November 2007
-	      Copyrights © Numéro du projet sept sérine.
-	      author: sérine
-	      rop implementation.
+	Copyrights © Numéro du projet sept sérine.
+	author: sérine
+	rop implementation.
         you can memset The buffer allocated for 
         arbitrary code execution.
 */
