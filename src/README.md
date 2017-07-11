@@ -27,3 +27,5 @@ that are utilized to tube directlly to the hardware segments.
 	</tr>
 </table>
 
+# Read The Notes inside the code.
+as time will pass i will add additional resources & full background.
