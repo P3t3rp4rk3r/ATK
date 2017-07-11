@@ -1,8 +1,3 @@
-# Mitigation
-CFG DEP ACG CIG ChPP ASLR SEHOP
-
-# Source Code are only available after disclosure.
-
 # Copyrights © Numéro du projet sept sérine.
 
 # description
