@@ -59,4 +59,15 @@ cfg, rop, brute forcing the ASLR, SEHOP ,DEP.<br>
 	<td>Not submitted</td>
 </table>
 
+# Media
+
+![](PoC/yudo.gif)
+![](PoC/bsod.gif)
+![](PoC/bsod2.gif)
+![](PoC/bsod3.gif)
+![](PoC/bss.gif)
+![](PoC/mac.gif)
+![](PoC/1st.gif)
+![](PoC/DebienOnHyperV.gif)
+![](PoC/Ubunt.gif)
 
