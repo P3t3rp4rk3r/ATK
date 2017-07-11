@@ -65,21 +65,30 @@ cfg, rop, brute forcing the ASLR, SEHOP ,DEP.<br>
 # Media
 
 # fuzzing Win On Oracal
+# direct memory access & return oriented programming.
 ![](PoC/yudo.gif)
 # win 10 build 15063.143
+# indirect call.
 ![](PoC/bsod.gif)
 # win 10 build 15063.143
+# return oriented programming.
 ![](PoC/bsod2.gif)
 # RS3 16237
+# indirect call.
 ![](PoC/bsod3.gif)
 # RS3 16237
+# indirect call.
 ![](PoC/bss.gif)
 # OS X Mavericks v10.9.5, Darwin 13.4
+# indirect call.
 ![](PoC/mac.gif)
 # RS3 16237
+# reverse jump procedure & ROP.
 ![](PoC/1st.gif)
 # Debien On HyperV
+# reverse jump procedure & ROP.
 ![](PoC/DebienOnHyperV.gif)
 # Ubuntu 16.04.2 LTS (Xenial Xerus)
+# indirect call.
 ![](PoC/Ubunt.gif)
 
