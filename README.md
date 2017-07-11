@@ -61,13 +61,22 @@ cfg, rop, brute forcing the ASLR, SEHOP ,DEP.<br>
 
 # Media
 
+# fuzzing Win On Oracal
 ![](PoC/yudo.gif)
+# win 10 build 15063.143
 ![](PoC/bsod.gif)
+# win 10 build 15063.143
 ![](PoC/bsod2.gif)
+# RS3 16237
 ![](PoC/bsod3.gif)
+# RS3 16237
 ![](PoC/bss.gif)
+# OS X Mavericks v10.9.5, Darwin 13.4
 ![](PoC/mac.gif)
+# RS3 16237
 ![](PoC/1st.gif)
+# Debien On HyperV
 ![](PoC/DebienOnHyperV.gif)
+# Ubuntu 16.04.2 LTS (Xenial Xerus)
 ![](PoC/Ubunt.gif)
 
