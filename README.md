@@ -14,6 +14,8 @@ author: <html><a href="https://twitter.com/Yena0xC5">@Yena</a></html>.<br>
 cfg ,system failure, privilege acceleration, arbitrary code execution.<br>
 Rtl Check failure.<html><a href="https://github.com/kukuriku/Mitigation/tree/master/lena">ref</a></html><br>
 
+# NOT FIXED OS design failure. (win-generic/linux)
+
 <table>
     <tr>
         <th>CVE Request 349130 for CVE ID Request</th>
@@ -40,6 +42,9 @@ Rtl Check failure.<html><a href="https://github.com/kukuriku/Mitigation/tree/mas
 author: sérine.<br>
 cfg, rop, brute forcing the ASLR, SEHOP ,DEP.<br>
 <html><a href="https://github.com/kukuriku/Mitigation/tree/master/Iaso">ref</a></html><br>
+
+
+# NOT FIXED OS design failure. (win-generic/linux)
 
 <table>
     <tr>
