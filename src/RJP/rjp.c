@@ -1,10 +1,7 @@
 /*
 	compile on a x86 64 machine
 	with cl compiler:
-	cl /guard:cf b1i.c,
-	The payload will disable win gui,
-	but will also disable all
-	MpsSvc & Cygwin
+	cl /guard:cf rjp.c
 */
 
 #include <setjmp.h>
