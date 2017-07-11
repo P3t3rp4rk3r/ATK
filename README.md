@@ -3,6 +3,9 @@
 # description
 verius exploitation techniques to attack the intel x86 architecture in order to bypass CFG mechanisms, cause memory corruption & to take over the instruction pointer, over multiple operating systems and cpu platforms and a reverse analysis of the intel processor architecture exploitation, this includes a windows, linux & an OSx version's.
 
+# Tech
+For Source Code & Technical Methods please reffer to The<html><a href="https://github.com/kukuriku/ATK/tree/master/src">Source Code</a></html> Section.
+
 # STATUS
 
 # lena;
