@@ -65,7 +65,7 @@ cfg, rop, brute forcing the ASLR, SEHOP ,DEP.<br>
 	<td>Not submitted</td>
 </table>
 
-# Media
+# Proof Of Concept
 
 # fuzzing Win On Oracal
 # direct memory access & return oriented programming.
