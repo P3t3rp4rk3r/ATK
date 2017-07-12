@@ -1,5 +1,3 @@
-# Copyrights © Numéro du projet sept sérine.
-
 # description
 verius exploitation techniques to attack the intel x86 architecture in order to bypass CFG mechanisms, cause memory corruption & to take over the instruction pointer, over multiple operating systems and cpu platforms and a reverse analysis of the intel processor architecture exploitation, this includes a windows, linux & an OSx version's.
 
@@ -96,4 +94,6 @@ cfg, rop, brute forcing the ASLR, SEHOP ,DEP.<br>
 # Ubuntu 16.04.2 LTS (Xenial Xerus)
 # indirect call.
 ![](PoC/Ubunt.gif)
+
+# Copyrights © Numéro du projet sept sérine.
 
