@@ -66,7 +66,9 @@ cfg, rop, brute forcing the ASLR, SEHOP ,DEP.<br>
 </table>
 
 # Proof Of Concept
-
+# RS3 16232 EoP
+# reverse jump procedure & ROP.
+![](PoC/EoP.gif)
 # fuzzing Win On Oracal
 # direct memory access & return oriented programming.
 ![](PoC/yudo.gif)
